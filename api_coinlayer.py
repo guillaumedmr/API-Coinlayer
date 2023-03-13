@@ -4,7 +4,7 @@ import json
 
 def prix_crypto(devise):
 
-    cle_api = "c5ebce0697d27a150d2bf41a5fb320be"
+    cle_api = "YOUR-KEY" # Clé API Coinlayer (gratuite sur le site officiel)
     url = "http://api.coinlayer.com/api/live?access_key=" + cle_api
     reponse = requests.get(url)
     
